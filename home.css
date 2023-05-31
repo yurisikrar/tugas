@@ -1,0 +1,305 @@
+*{
+    font-family: "Poppinn", sans-serif;
+}
+.isi{
+    display: flex;
+}
+.sidebar{
+    background-color: #333333;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 20%;
+    border: 0px;
+    position: fixed;
+    display: grid;
+    align-items: center;
+}
+.konten{
+    background-color: #1a1a1a;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 80%;
+    min-height: 1000px;
+    max-height: 100000px;
+    margin-left: 20%;
+}
+.sideatas{
+    height: 20%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: grid;
+    align-items: center;
+    margin-top: 0px;
+}
+body{
+    margin: 0px;
+}
+.sidebawah{
+    height: 80%;
+    bottom: 0px;
+}
+.pilihanmenu{
+    padding: 10px;
+    margin: 5px;
+    background-color: #719192;
+    text-decoration: none;
+    color: #dfcdc3;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.linkpilihan{
+    text-decoration: none;
+    color: #dfcdc3;
+}
+.tombolmenu{
+    padding: 8px;
+    margin: 5px;
+    width: 80%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #444650;
+    color: #ffac42;
+    border: 0px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    border: 2px solid #333333;
+}
+.tombolmenu:hover{
+    border: 2px solid #ffac42;
+}
+.namalogin{
+    color: #ffac42;
+    top: 0px;
+}
+.tombolkeluar{
+    padding: 8px;
+    margin: 5px;
+    width: 80%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: crimson;
+    color: aliceblue;
+    border: 0px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    border: 2px solid #333333;
+}
+.tombolkeluar:hover{
+    border: 2px solid crimson;
+    background-color: aliceblue;
+    color: crimson;
+}
+.atas{
+    color: #ffac42;
+    font-size: 1em;
+    align-items: center;
+}
+.nama{
+    color: #ff1f57 !important;
+    font-size: 1em;
+}
+.sidebar h1{
+    margin: 5px;
+}
+.tombolsiswa{
+    padding: 8px;
+    margin: 5px;
+    width: 80%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #444650;
+    color: aliceblue;
+    border: 0px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    border: 2px solid #333333;
+    max-width: 300px;
+}
+.tombolsiswa:hover{
+    border: 2px solid aliceblue;
+    background-color: #444650;
+    color: aliceblue;
+}
+.atass{
+    align-items: center;
+    padding: 3px;
+    height: 200px;
+}
+.isihomesekolah{
+    align-items: center;
+    display: grid;
+    grid-template-rows: 500px 500px;
+}
+.isiforminputsiswa{
+    display: grid;
+}
+.hurufforminputsiswa{
+    color: aliceblue;
+    padding: 3px;
+}
+.bawahh{
+    padding: 10px;
+    padding-top: 50px;
+    min-height: 200px;
+    max-height: 80000px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.judultabelsiswa{
+    color: #ffac42;
+}
+.isitabelsiswa{
+    color: aliceblue;
+}
+.tomboledit{
+    height: 40px;
+    width: 70px;
+    transition: 0.3s;
+    background-color: #444650;
+    color: #ffac42;
+    border: 3px solid #1a1a1a;
+}
+.tomboledit:hover{
+    border: 3px solid #ffac42;
+}
+.tombolhapus{
+    height: 40px;
+    width: 70px;
+    transition: 0.3s;
+    background-color: #ff1f57;
+    color: aliceblue;
+    border: 3px solid #1a1a1a;
+}
+.tombolhapus:hover{
+    border: 3px solid aliceblue;
+}
+.pilihanaksi{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.atasss{
+    align-items: center;
+    display: grid;
+}
+.halamaninputsiswa{
+    align-items: center;
+    display: grid;
+    grid-template-rows: 500px 500px;
+}
+.inputsiswabagianjudul{
+    font-size: 1.2em;
+    padding: 7px;
+    margin: 5px;
+    color: #ffac42;
+}
+.tabelhalamaninputsiswa{
+    color: #ffac42;
+    padding: 7px;
+    margin: 5px;
+}
+.inputsiswa{
+    background-color: transparent;
+    color: #ffac42;
+    height: 40px;
+    width: 300px;
+    border: 1px solid #ffac42;
+    border-radius: 7px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+}
+.classoption{
+    background-color: #1a1a1a;
+}
+.inputsiswa2{
+    padding: 5px;
+    background-color: #1a1a1a;
+    color: #ffac42;
+    width: 60px;
+    height: 40px;
+    border-radius: 7px;
+    content: 'Pilih Foto Yang akan di Unggah';
+    transition: 0.4s;
+}
+.tombolsimpaninputbuku{
+    height: 40px;
+    width: 210px;
+    transition: 0.3s;
+    background-color: seagreen;
+    color: #dfcdc3;
+    border: 3px solid #1a1a1a;
+    margin: 5px;
+}
+.tombolhapusinputbuku{
+    height: 40px;
+    width: 210px;
+    transition: 0.3s;
+    background-color: crimson;
+    color: #dfcdc3;
+    border: 3px solid #1a1a1a;
+    margin: 5px;
+}
+.inputsiswa2::-webkit-file-upload-button{
+    background-color: #1a1a1a;
+    color: #ffac42;
+    border: 1px solid #ffac42;
+    border-radius: 5px;
+    height: 40px;
+}
+.tombolsimpaninputbuku:hover{
+    color: seagreen;
+    background-color: #dfcdc3;
+    border: 3px solid seagreen;
+}
+.tombolhapusinputbuku:hover{
+    color: crimson;
+    background-color: #dfcdc3;
+    border: 3px solid crimson;
+}
+.inputsiswa2:hover{
+    background-color: #ffac42;
+    color: #1a1a1a;
+    width: 300px;
+}
+.juduldaftarsiswa{
+    color: #ffac42;
+}
+.inputsiswa3{
+    padding: 5px;
+    background-color: #1a1a1a;
+    color: #ffac42;  
+    width: 60px;
+    height: 20px;
+    border-radius: 7px;
+    content: 'Pilih Foto Yang akan di Unggah';
+    transition: 0.3s;
+    text-align: center;
+}
+.inputsiswa3::-webkit-file-upload-button{
+    background-color: #1a1a1a;
+    color: #ffac42;
+    border: 1px solid #ffac42;
+    border-radius: 5px;
+}
+.inputsiswa3:hover{
+    background-color: #ffac42;
+    color: #1a1a1a;
+    width: 220px;
+}
+.tabelinputnilai{
+    width: 900px;
+    max-width: 1100px;
+}
+.formpencarian{
+    align-items: center;
+    display: grid;
+}
+.formpencarian h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffac42;
+}
